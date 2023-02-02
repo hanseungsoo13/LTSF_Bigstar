@@ -18,8 +18,8 @@ LNG, CNG, PNG 등으로 분류되며 도시가스, 난방, 천연가스 버스 �
 ## 데이터이해
 
 ###Data Structure
+![화면 캡처 2023-01-18 094411](https://user-images.githubusercontent.com/75753717/216317814-54f6aa67-d347-4fae-93be-4e0b1f1520a3.png)
 
-![화면 캡처 2023-01-18 094411.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/97888f07-b940-4b96-b3cf-ebf56975d5af/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2023-01-18_094411.png)
 
 위와 같이 제공된 X와 Y를 효과적으로 활용하기 위해 다음 3가지를 강조한다.
 
@@ -37,7 +37,8 @@ LNG, CNG, PNG 등으로 분류되며 도시가스, 난방, 천연가스 버스 �
 
 ### 방법론
 
-![화면 캡처 2023-01-18 095503.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4b8d0288-1a0e-4dbe-a365-971a1f3174ea/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2023-01-18_095503.png)
+![화면 캡처 2023-01-18 095503](https://user-images.githubusercontent.com/75753717/216317568-4a432d79-b2ea-4917-839c-843ac01a8267.png)
+
 
 - 개략적인 방법론은 위의 그림을 통해 설명 가능하다.
 1. 외부데이터에 D-Linear모델을 적용하여 미래의 외부데이터 X값을 생성한다.
@@ -63,7 +64,8 @@ Target의 효과적인 예측을 위해 설명변수들에 Feature Engineering�
 
 - 시계열 분해를 이용하여 LTSF(Long Time Series Forecasting)과제에 SOTA를 달성한 모델
     
-    ![그림3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1bf40af-d744-4e63-ba33-0f89217c119f/%EA%B7%B8%EB%A6%BC3.png)
+    ![그림3](https://user-images.githubusercontent.com/75753717/216317623-b173f9bc-cb79-42fa-99a3-612356076951.png)
+
     
     - 시계열 데이터를 Seasonal data와 Trend data로 변환하여 각각을 예측한 후 최종 결과를 예측하는 모델
     
@@ -85,7 +87,8 @@ Target의 효과적인 예측을 위해 설명변수들에 Feature Engineering�
 
 ## Conclusion
 
-![그림5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6ea1a81-9f92-4278-8d65-8e057b2fe8d4/%EA%B7%B8%EB%A6%BC5.png)
+![그림5](https://user-images.githubusercontent.com/75753717/216317686-07723660-3c35-42a2-88a8-319ad31a8c89.png)
+
 
 위의 그림이 최종적으로 예측한 예측값
 
